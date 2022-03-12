@@ -3,6 +3,6 @@ terraform {
     bucket = "oregon-mydev-tf-state-bucket"
     key = "main"
     region = "us-west-2"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "oregon-my-dynamodb-table"
   }
 }
